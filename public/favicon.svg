@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cat and Granny">
+  <rect width="64" height="64" rx="15" fill="#2a1049" />
+  <path d="M14 29 15 12l11 8h12l11-8 1 17v9a13 13 0 0 1-13 13H27a13 13 0 0 1-13-13z" fill="#ff8f3c" />
+  <ellipse cx="24.6" cy="33" rx="4.4" ry="5" fill="#241b2e" />
+  <ellipse cx="39.4" cy="33" rx="4.4" ry="5" fill="#241b2e" />
+  <ellipse cx="23.2" cy="31.2" rx="1.5" ry="1.7" fill="#ffffff" />
+  <ellipse cx="38" cy="31.2" rx="1.5" ry="1.7" fill="#ffffff" />
+  <path d="M32 39.5 35 43h-6z" fill="#ff6b8a" />
+  <g fill="none" stroke="#241b2e" stroke-width="2" stroke-linecap="round">
+    <path d="M32 43.4v3.2" />
+    <path d="M32 46.6c-2.2 0-3.4-1-4.4-2.2" />
+    <path d="M32 46.6c2.2 0 3.4-1 4.4-2.2" />
+  </g>
+</svg>

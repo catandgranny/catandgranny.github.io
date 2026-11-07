@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+.astro/
+.tmp-art/
+
+# macOS
+.DS_Store
+
+# Editor / tooling
+.vscode/
+*.log

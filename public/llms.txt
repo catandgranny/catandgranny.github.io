@@ -1,0 +1,41 @@
+# Cat and Granny Online
+
+> Play Cat and Granny online for free in the browser: a first-person cat game in
+> which you wreck Granny's house, pin the mess on the newly adopted black cat and
+> hide in a box before Granny spots you. No download, no account, no install.
+
+Cat and Granny is developed by Mirra Games and distributed through Playgama. This
+site is an unofficial fan page that embeds the official web build (Unity WebGL,
+~43 MB, streamed from the publisher's CDN) and publishes written guides. It does
+not host or modify the game files.
+
+## Play
+
+- [Play Cat and Granny](https://catandgranny.github.io/) — the game loads in the
+  page. Keyboard: W A S D to move, mouse to look, Space to jump, F to interact,
+  Q to hide in a box.
+
+## Guides
+
+- [How to Play](https://catandgranny.github.io/how-to-play/) — the objective, how
+  the blame system works, when to hide and the mistakes that end a run.
+- [Controls](https://catandgranny.github.io/controls/) — every desktop binding
+  plus the touch layout on phones and tablets.
+- [Tips & Tricks](https://catandgranny.github.io/tips/) — reading Granny's
+  patrol, timing pranks around the black cat and getting more from the shop.
+- [Unblocked](https://catandgranny.github.io/unblocked/) — running the game on
+  school or work networks, and fixing a player that stays black.
+
+## Site
+
+- [About](https://catandgranny.github.io/about/)
+- [Privacy Policy](https://catandgranny.github.io/privacy/)
+- [Terms of Use](https://catandgranny.github.io/terms/)
+
+## Facts
+
+- Game: Cat and Granny, free, browser-based, Unity WebGL, rated E10+.
+- Studio: Mirra Games. Distribution: Playgama.
+- Genres: first-person action, stealth, simulation, cats.
+- Platforms: any modern desktop browser; Android and iOS in the app stores.
+- Cost: free, no account. The build carries the publisher's ads.
