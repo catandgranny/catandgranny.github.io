@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://catandgranny.github.io/sitemap-index.xml
