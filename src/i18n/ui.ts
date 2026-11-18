@@ -73,6 +73,8 @@ export const ui = {
       'Cat and Granny is developed by Mirra Games and distributed through Playgama. This site is an unofficial fan page and is not affiliated with or endorsed by the studio.',
     'footer.official': 'Official listing:',
     'footer.builtWith': 'Built with Astro',
+    'footer.moreGames': 'More games at CoolGamesSpot',
+    'footer.moreGamesHint': 'Opens coolgamesspot.com in a new tab',
 
     'notFound.title': 'Page not found',
     'notFound.text':

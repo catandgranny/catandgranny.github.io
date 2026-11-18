@@ -56,6 +56,9 @@ export const GAME_OFFICIAL_URL = 'https://playgama.com/game/cat-and-granny';
 /** Studio page for the developer. */
 export const GAME_DEVELOPER_URL = 'https://playgama.com/developer/97';
 
+/** Sister site: the network this fan page belongs to. Linked from the footer. */
+export const MORE_GAMES_URL = 'https://coolgamesspot.com/';
+
 /**
  * Prefix a site-relative path with the deployment base path and normalise the
  * trailing slash so internal links never trigger a GitHub Pages redirect.

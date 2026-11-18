@@ -3,7 +3,7 @@
  * Footer.astro — site footer with grouped links and the fan-site disclosure
  * that keeps the site honest about who owns the game.
  */
-import { SITE, GAME_OFFICIAL_URL, GAME_DEVELOPER_URL } from '../../config/site';
+import { SITE, GAME_OFFICIAL_URL, GAME_DEVELOPER_URL, MORE_GAMES_URL } from '../../config/site';
 import { getLangFromUrl, useTranslations, localizedHref } from '../../i18n/utils';
 
 const lang = getLangFromUrl(Astro.url);
@@ -72,6 +72,44 @@ const columns = [
         <p class="mt-4 max-w-sm text-sm leading-relaxed text-[var(--text-secondary)]">
           {t('footer.aboutText')}
         </p>
+
+        <a
+          href={MORE_GAMES_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          title={t('footer.moreGamesHint')}
+          class="group mt-5 inline-flex items-center gap-2 rounded-xl border border-[var(--border-hover)] bg-[var(--bg-elevated)] px-3.5 py-2 text-sm font-semibold text-[var(--text-primary)] transition-colors hover:border-[var(--color-accent-500)] hover:text-[var(--color-accent-300)]"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.8"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-4 w-4 shrink-0 text-[var(--color-accent-400)]"
+            aria-hidden="true"
+          >
+            <path d="M7 11h4M9 9v4" />
+            <path d="M15.5 10.5h.01M18 12.5h.01" />
+            <path d="M17.3 6.5H6.7A4.7 4.7 0 0 0 2 11.2v2.3a3.3 3.3 0 0 0 5.8 2.1l.6-.7a2 2 0 0 1 1.5-.7h4.2a2 2 0 0 1 1.5.7l.6.7a3.3 3.3 0 0 0 5.8-2.1v-2.3a4.7 4.7 0 0 0-4.7-4.7z" />
+          </svg>
+          <span>{t('footer.moreGames')}</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="h-3.5 w-3.5 shrink-0 opacity-60 transition-transform group-hover:translate-x-0.5"
+            aria-hidden="true"
+          >
+            <path d="M5 12h14M13 6l6 6-6 6" />
+          </svg>
+        </a>
         <p class="mt-4 max-w-sm text-xs leading-relaxed text-[var(--text-tertiary)]">
           {t('footer.credit')}
         </p>
